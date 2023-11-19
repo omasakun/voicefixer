@@ -1,10 +1,10 @@
-NOTE: This is a fork of the [original repo](https://github.com/haoheliu/voicefixer), with some changes to work with my project.
+This is a fork of the [original repo](https://github.com/haoheliu/voicefixer), with some changes to make it work well with my project.
 
 Changes:
 
 - Manage dependencies using PDM
 - Removed unnecessary dependencies (streamlit, matplotlib, etc.)
-- Added GUI made with Gradio
+- Added [GUI made with Gradio](test/infer_gradio.py)
 
 Installation:
 
