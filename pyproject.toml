@@ -1,0 +1,37 @@
+[project]
+name = "voicefixer"
+version = "0.1.2"
+description = "This package is written for the restoration of degraded speech"
+authors = [{ name = "Haohe Liu", email = "haoheliu@gmail.com" }]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10.11"
+dependencies = ["librosa~=0.10", "torch~=2.1", "torchlibrosa~=0.1"]
+
+[project.urls]
+Homepage = "https://github.com/omasakun/voicefixer"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    # for development
+    "ipykernel~=6.26",
+    "ipywidgets~=8.1",
+    "yapf~=0.40",
+    # for testing
+    "gradio~=4.4",
+    "matplotlib~=3.8",
+    "progressbar~=2.5",
+    "streamlit~=1.28",
+    "torchaudio~=2.1",
+]
+
+[tool.yapf]
+based_on_style = "yapf"
+blank_line_before_nested_class_or_def = false
+column_limit = 160
+indent_width = 4
+join_multiple_lines = true
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"

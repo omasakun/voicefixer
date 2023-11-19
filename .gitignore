@@ -1,6 +1,6 @@
-.DS*
+/.venv
+/.pdm-python
+/dist
+
 __pycache__
-dist
-*egg*
-.idea
-build
+.DS_Store
