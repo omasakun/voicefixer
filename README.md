@@ -1,8 +1,20 @@
 NOTE: This is a fork of the [original repo](https://github.com/haoheliu/voicefixer), with some changes to work with my project.
 
+Changes:
+
 - Manage dependencies using PDM
 - Removed unnecessary dependencies (streamlit, matplotlib, etc.)
 - Added GUI made with Gradio
+
+Installation:
+
+```bash
+pip install git+https://github.com/omasakun/voicefixer  # with pip
+```
+
+```bash
+pdm add     git+https://github.com/omasakun/voicefixer  # with pdm
+```
 
 The original README is below.
 
